@@ -1,6 +1,6 @@
 # 19.Hafta-Odevler
 
-1-Gecen hafa olusturmaniz istenilen kayit penceresindeki Widget ve Menulere islevsellik kazandiracagiz, soyleki:
+1-Gecen hafta olusturmaniz istenilen kayit penceresindeki Widget ve Menulere islevsellik kazandiracagiz, soyleki:
 
 a)Olusturulan pencereye menuler eklenecek(dosya menusu,gorunum menusu,yardim menusu)(ek-resimler)
 
@@ -12,4 +12,4 @@ d)Ayni mail ile kayitli baska bir kullanici olmasi durumunda Kayit Ol ve Iptal b
 
 e)Olusturulan bu program exe formatina donusturulup, ders hocalarina gonderilecek.
 
-Not:odevin gec verilmesi nedeni ile son gonderi tarihi pazar aksamina kadardir.Basarilar
+Not:Odevin gec verilmesi nedeni ile son gonderi tarihi pazar aksamina kadardir.Basarilar
