@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>781</width>
+    <height>514</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>100</width>
+    <height>100</height>
+   </size>
+  </property>
+  <property name="acceptDrops">
+   <bool>false</bool>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 8, 8);</string>
+  </property>
+  <property name="documentMode">
+   <bool>true</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="15" column="3">
+     <widget class="QPushButton" name="buton_kayit">
+      <property name="layoutDirection">
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 0, 255);</string>
+      </property>
+      <property name="text">
+       <string>KAYDET</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="3">
+     <widget class="QLineEdit" name="soyad_line">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(143, 214, 214);</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="mail">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>  MAIL</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="3">
+     <widget class="QLineEdit" name="mail_line">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(143, 214, 214);</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="3">
+     <widget class="QLineEdit" name="mail_tekrar_line">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(143, 214, 214);</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="0">
+     <widget class="QLabel" name="pasword">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>  PASWORD</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="3">
+     <widget class="QLineEdit" name="pas_line">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(143, 214, 214);</string>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::Password</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="0">
+     <widget class="QLabel" name="pasword_tekrar">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>  PASWORD TEKRAR</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="3">
+     <widget class="QLineEdit" name="pas_tek_line">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(143, 214, 214);</string>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::Password</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="0" rowspan="2">
+     <widget class="QLabel" name="medeni_durum">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);
+border-color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string>  MEDENI DURUMUNUZ</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="3">
+     <widget class="QRadioButton" name="Evli">
+      <property name="text">
+       <string>EVLI</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="0">
+     <widget class="QLabel" name="mail_tekrar">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>  MAIL TEKRAR</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
+      </property>
+     </widget>
+    </item>
+    <item row="10" column="2" colspan="2">
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="14" column="0">
+     <widget class="QCheckBox" name="kontrol">
+      <property name="text">
+       <string>OKUDUM KABUL EDIYORUM</string>
+      </property>
+     </widget>
+    </item>
+    <item row="13" column="0" colspan="6">
+     <widget class="QTextEdit" name="kurallar">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::NoFocus</enum>
+      </property>
+      <property name="contextMenuPolicy">
+       <enum>Qt::NoContextMenu</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 10pt &quot;Wide Latin&quot;;
+background-color: rgb(112, 112, 112);
+color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Box</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Plain</enum>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Wide Latin'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.15094pt;&quot;&gt;KURALLAR&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.15094pt;&quot;&gt;1- LUTFEN BILGILERINIZI DOGRU GIRINIZ&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.15094pt;&quot;&gt;2- PASWORDUNUZ EN AZ 8 KARAKTERDEN OLUSMALIDIR.LUTFEN GUCLU BIR PASWORD ICIN EN AZ BIR SAYI ,BIR BUYUK HARF,BIR SAYI VE BIR ISARET KARAKTERLERIYLE GUCLENDIRMEYI UNUTMAYIN.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.15094pt;&quot;&gt;3-MAIL ADRESINIZIN ONCEKI KAYITLARLA AYNI OLMAMASINA DIKKAT EDINIZ&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.15094pt;&quot;&gt;4- BU BILGILER 3.SAHISLARLA PARA KARSILIGINDA PAYLASILABILIR&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8.15094pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </item>
+    <item row="15" column="0">
+     <widget class="QPushButton" name="buton_esc">
+      <property name="layoutDirection">
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 0, 255);</string>
+      </property>
+      <property name="text">
+       <string>IPTAL</string>
+      </property>
+     </widget>
+    </item>
+    <item row="9" column="3">
+     <widget class="QRadioButton" name="Bekar">
+      <property name="text">
+       <string>BEKAR</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="3">
+     <widget class="QLineEdit" name="ad_line">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(143, 214, 214);
+</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="soyadi">
+      <property name="styleSheet">
+       <string notr="true">
+background-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>  SOYADINIZ</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLabel" name="ad">
+      <property name="contextMenuPolicy">
+       <enum>Qt::ActionsContextMenu</enum>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);
+</string>
+      </property>
+      <property name="text">
+       <string>  ADINIZ</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
+      </property>
+     </widget>
+    </item>
+    <item row="10" column="0">
+     <widget class="QGroupBox" name="cinsiyet_group">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(120, 120, 120);
+</string>
+      </property>
+      <property name="title">
+       <string>CINSIYET</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="1" column="0">
+        <widget class="QRadioButton" name="erkek">
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="text">
+          <string>ERKEK</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="0">
+        <widget class="QRadioButton" name="bayan">
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="text">
+          <string>BAYAN</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="15" column="4">
+     <widget class="QToolButton" name="Temizle">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(170, 170, 127);</string>
+      </property>
+      <property name="text">
+       <string>TEMIZLE</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="MENU">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>781</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="Dosya">
+    <property name="title">
+     <string>Dosya</string>
+    </property>
+    <addaction name="Kayit_ol"/>
+    <addaction name="Iptal"/>
+    <addaction name="Cikis"/>
+   </widget>
+   <widget class="QMenu" name="Gorunum">
+    <property name="title">
+     <string>Gorunum</string>
+    </property>
+    <addaction name="Yakinlastir"/>
+    <addaction name="Uzaklastir"/>
+   </widget>
+   <widget class="QMenu" name="menuYardim">
+    <property name="title">
+     <string>Yardim</string>
+    </property>
+   </widget>
+   <addaction name="Dosya"/>
+   <addaction name="Gorunum"/>
+   <addaction name="menuYardim"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="Kayit_ol">
+   <property name="text">
+    <string>Kayit Ol</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+S</string>
+   </property>
+   <property name="shortcutVisibleInContextMenu">
+    <bool>true</bool>
+   </property>
+  </action>
+  <action name="Iptal">
+   <property name="text">
+    <string>iptal</string>
+   </property>
+   <property name="shortcut">
+    <string>Esc</string>
+   </property>
+  </action>
+  <action name="Yakinlastir">
+   <property name="text">
+    <string>Yakinlastir</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Y</string>
+   </property>
+  </action>
+  <action name="Cikis">
+   <property name="text">
+    <string>Cikis</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Q</string>
+   </property>
+  </action>
+  <action name="Uzaklastir">
+   <property name="text">
+    <string>Uzaklastir</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+U</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
